@@ -23,7 +23,7 @@ const greeting = {
   username: "John Enad",
   title: "Hi, I'm John Enad",
   subTitle: emoji(
-    "A Generalist Full-stack Software Engineer that enjoys building Web and Cloud applications in various Platforms and Stacks"
+    "A Generalist Full-stack Software Engineer that enjoys building Web and Cloud applications in various Platforms and Stacks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
