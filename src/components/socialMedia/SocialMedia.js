@@ -7,7 +7,7 @@ export default function socialMedia() {
     return null;
   }
   return (
-    <div className="social-media-div">
+    <div className="social-media-div" style={{ display: "flex" }}>
       {socialMediaLinks.github ? (
         <a
           href={socialMediaLinks.github}
@@ -89,6 +89,21 @@ export default function socialMedia() {
         >
           <i className="fab fa-twitter"></i>
           <span></span>
+        </a>
+      ) : null}
+
+      {socialMediaLinks.devto ? (
+        <a
+          href={socialMediaLinks.devto}
+          className="icon-button devto"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+                alt="dev.to"
+                src={require("../../assets/images/devto.png")}
+                style={{ width: "1.4em"}}
+              ></img>
         </a>
       ) : null}
 

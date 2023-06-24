@@ -23,7 +23,7 @@ const greeting = {
   username: "John Enad",
   title: "Hi, I'm John Enad",
   subTitle: emoji(
-    "A Generalist Full-stack Software Engineer that enjoys building Web and Cloud applications in various Platforms and Stacks"
+    "A Generalist Full-stack Software Engineer that enjoys building Web and Cloud applications in various Platforms and Stacks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -38,6 +38,7 @@ const socialMediaLinks = {
   // gmail: "username@gmail.com",
   // gitlab: "https://gitlab.com/username",
   // facebook: "https://www.facebook.com/username",
+  devto: "https://dev.to/jenad88",
   medium: "https://medium.com/@johnenad",
   // stackoverflow: "https://stackoverflow.com/users/10422806/username",
   // Instagram, Twitter and Kaggle are also supported in the links!
@@ -48,7 +49,7 @@ const socialMediaLinks = {
 // Skills Section
 const skillsSection = {
   title: "What I do",
-  subTitle: "FULL STACK APPLICATION DEVELOPER WHO WANTS TO SOLVE REAL WORLD PROBLEMS USING TECHNOLOGY",
+  subTitle: "FULL STACK APPLICATION DEVELOPER WHO LIKES TO SOLVE REAL WORLD PROBLEMS USING TECHNOLOGY",
   skills: [
     emoji("⚡ Front-end skills for Web design and development (Reactjs / Angular / Vue.js / Blazor)"),
     emoji("⚡ Data Visualization (Tableau / Power BI / Qlik / Plotly / D3.js)"),
